@@ -146,10 +146,11 @@ textarea:focus {
 }
 #cv-main-menu ul li a {
     color: #fff;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.05);
 }
 #cv-main-menu ul li:first-child a {
     background: #de3926;
+    color: #fff;
 }
 /* ================= SIDEBAR ================== */
 #cv-sidebar {
@@ -225,25 +226,27 @@ textarea:focus {
 }
 /* ================= HOMEPAGE ================== */
 #home-title h1 span{
-    color:#fff;
-    background-color: #222;
+    color:#222;
+    background-color: #fff;
 }
 #home-slide-title span, #home-title h1 .mobile-title{
     color:#fff;
-    background-color: #de3926;
+    background-color: #222;
 }
 #home-title p{
-    color: #222;
-    background-color: #fff;
+    color: #fff;
+    background-color: #222;
 }
 /* ================= HOME SOCIAL BAR ================== */
 #cv-home-social-bar ul li a {
-    color: #222;
-    border-right: 1px solid #f3f3f3;
-    background-color: #fff;
+    color: #909090;
+    /*border-right: 1px solid #f3f3f3;*/
+    border-left: 1px solid rgba(255, 255, 255, 0.05);
+    border-right: 1px solid rgba(255, 255, 255, 0.05);
+    background-color: #222;
 }
 #cv-home-social-bar ul li a:hover {
-    color: #de3926;
+    color: #fff;
 }
 /* ================= CV TABLE ================== */
 .cv-table li {
@@ -367,7 +370,7 @@ textarea:focus {
 	color: #222;
 }
 .tooltipster-dark,.tooltipster-gototop {
-	background: #222;
+	background: #de3926;
 	color: #fff;
 }
 .tooltipster-red {
